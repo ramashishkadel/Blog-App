@@ -1,0 +1,143 @@
+.userdeatils_cont {
+  position: fixed;
+  height: 94vh;
+  width: 40vw;
+  background: #1a1a1b;
+  left: 50%;
+  margin-left: -20vw;
+  top: 50%;
+  margin-top: -47vh;
+  z-index: 1000;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 5px 1px rgba(218, 215, 220, 0.3);
+  text-align: center;
+}
+
+.userdeatils_cont h1 {
+  color: #d7dadc;
+}
+
+@media (max-width: 70.5rem) {
+  .userdeatils_cont {
+    width: 70vw;
+    margin-left: -35vw;
+  }
+
+  .userdeatils_cont h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 46.5rem) {
+  .userdeatils_cont {
+    width: 90vw;
+    margin-left: -45vw;
+  }
+}
+
+.userdetails_cont__form {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.userdetails_cont__pairs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userdeatils_cont input {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #1a1a1b;
+  border: 1px solid #3a3b3d;
+  color: #d7dadc;
+}
+
+.userdeatils_cont input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #1a1a1b inset !important;
+  -webkit-text-fill-color: #d7dadc !important;
+}
+
+.userdeatils_cont input:focus-visible {
+  outline: 1px solid #dad7dc;
+}
+
+.userdetails_cont__error {
+  margin-bottom: 1rem;
+  margin-left: 0.3rem;
+  color: #15cf81;
+  font-size: 0.8rem;
+}
+
+.userdetails_btn {
+  background-color: #dad7dc;
+  color: grey;
+  border: 1px solid #dad7dc;
+  padding: 0.3rem 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.userdetails_btn:hover {
+  background-color: white;
+  color: black;
+}
+
+select {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  border-bottom: 1px solid #3a3b3d;
+  padding: 0.2rem 0;
+  text-align: center;
+  background: #1a1a1b;
+  color: #d7dadc;
+}
+
+select:focus-visible {
+  outline: 1px solid #dad7dc;
+}
+
+.userdetails_cont_imgdrop {
+  text-align: center;
+  background: transparent;
+  border: 1px solid #3a3b3d;
+  width: 100%;
+  padding: 2rem;
+  color: #d7dadc;
+  font-size: 0.8rem;
+}
+
+.userdetails_cont_imgdrop:hover {
+  outline: 1px solid #d7dadc;
+}
+
+@media (max-width: 31.5rem) {
+  .userdeatils_cont {
+    width: 90vw;
+    margin-left: -45vw;
+    height: 90vh;
+    margin-top: -45vh;
+  }
+
+  .userdeatils_cont h1 {
+    font-size: 1.4rem;
+  }
+
+  .userdetails_cont__pairs {
+    display: block;
+  }
+
+  .userdeatils_cont input {
+    width: 12rem;
+  }
+}

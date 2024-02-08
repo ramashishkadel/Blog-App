@@ -1,0 +1,20 @@
+.homepage_cont {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.homepage_errormsg {
+  padding: 1rem 0;
+  background: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  margin: 3rem auto;
+  text-align: center;
+  color: red;
+  border-radius: 8px;
+}
+
+@media (max-width: 1000px) {
+  .homepage_errormsg {
+    width: 80%;
+  }
+}

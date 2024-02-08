@@ -1,0 +1,178 @@
+.createblog_main {
+  width: 100%;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+.createblog_main h2 {
+  color: #d7dadc;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #464648;
+}
+
+.createBlog_cont {
+  width: 50%;
+  margin: 0 auto;
+  background: #1a1a1b;
+  position: relative;
+}
+
+.createBlog_cont h2 {
+  color: #d7dadc;
+  padding: 0.5rem 2rem;
+  border-bottom: 2px solid #d7dadc;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.createBlog_cont__inputs {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.createBlog_cont__inputs input {
+  display: block;
+  background: transparent;
+  border: 1px solid #3a3b3d;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  color: #d7dadc;
+}
+
+@media (max-width: 950px) {
+  .createBlog_cont {
+    width: 80%;
+    padding: 0.5rem;
+  }
+  .createblog_main h2 {
+    width: 80%;
+  }
+  .createBlog_cont h2 {
+    width: 100%;
+  }
+}
+
+.createBlog_cont__inputs div {
+  text-align: center;
+  background: transparent;
+  border: 1px solid #3a3b3d;
+  width: 100%;
+  padding: 2rem;
+  color: #d7dadc;
+  font-size: 0.8rem;
+}
+
+.createBlog_cont__inputs div:focus-visible {
+  outline: 1px solid #d7dadc;
+}
+
+.createBlog_cont__inputs input:focus-visible {
+  outline: 1px solid #d7dadc;
+}
+
+.quill {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #3a3b3d !important;
+}
+
+.ql-container {
+  background-color: transparent; /* Dark background color */
+  color: #fff; /* Light text color */
+
+  border: none !important;
+}
+
+.ql-editor {
+  margin: 0 !important;
+  background-color: transparent !important;
+}
+
+.ql-editor.ql-blank::before {
+  color: grey !important;
+}
+
+.ql-editor p,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3 {
+  height: auto;
+  color: #d7dadc;
+  font-size: 1rem;
+}
+
+.ql-editor:focus-visible {
+  outline: 1px solid #d7dadc !important;
+}
+
+/* Customize toolbar styles for the dark theme */
+.ql-toolbar {
+  background-color: #272729;
+  color: #fff;
+  border: none !important;
+  margin: 0 !important;
+}
+
+.ql-stroke {
+  stroke: grey !important; /* Change the fill color to red */
+}
+
+svg:hover .ql-stroke {
+  stroke: #d7dadc !important;
+}
+.ql-picker {
+  color: grey !important;
+}
+
+.ql-picker:active {
+  color: #d7dadc;
+}
+
+.ql-picker::after {
+  color: #d7dadc !important;
+}
+
+/* Customize button styles */
+.ql-toolbar button {
+  color: #fff; /* Light text color for buttons */
+  border: none; /* Remove button border */
+}
+
+/* Customize the active state of buttons */
+.ql-toolbar button:hover,
+.ql-toolbar button:focus {
+  background-color: #444; /* Slightly lighter background on hover/focus */
+}
+
+.create_cont__error {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.3rem;
+  color: #15cf81;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.createBlog_cont__btn {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 3.5rem;
+  background: #d7dadc;
+  border: 1px solid black;
+  color: grey;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.createBlog_cont__btn:hover {
+  background: white;
+  color: black;
+}

@@ -1,0 +1,90 @@
+.hpl_cont {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem 4rem;
+  background: #1a1a1b;
+  border: 1px solid #3a3b3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+}
+
+.hpl_cont:hover {
+  border: 1px solid #8c8d8e;
+}
+
+.hpl_action__cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  color: #dad7dc;
+}
+
+.hpl_action__imgcont {
+  cursor: pointer;
+}
+
+.hpl_action__imgcont svg {
+  width: 1.5rem;
+}
+
+.hpl_action__imgcont svg:hover {
+  stroke: blue;
+}
+
+.hpl_down__svg svg:hover {
+  stroke: red;
+}
+
+.hpl_cont h2 {
+  color: #dad7dc;
+}
+
+.hpl_img__cont {
+  width: 100%;
+  text-align: center;
+}
+
+.hpl_img__cont img {
+  width: 60%;
+  height: 100%;
+}
+
+.hpl_cont p {
+  color: grey;
+}
+
+.hpl_msg {
+  position: absolute;
+  top: 1rem;
+  right: -10rem;
+  background: #dad7dc;
+  color: grey;
+  padding: 0.4rem;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  display: none;
+}
+
+.hpl_cont:hover .hpl_msg {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .hpl_cont {
+    width: 80% !important;
+  }
+  .hpl_cont:hover .hpl_msg {
+    display: none;
+  }
+}
+
+@media (max-width: 31rem) {
+  .hpl_img__cont img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.createPost {
+  margin: 0 auto;
+  background: #1a1a1b;
+  border: 1px solid #3a3b3d;
+  padding: 1rem;
+  display: flex;
+}
+
+.createPost__img {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.createPost__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.createPost input {
+  background: #272729;
+  border: none;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #272729;
+}
+
+.createPost input:hover {
+  border: 1px solid #d7dadc;
+}
+
+.createPost input:focus-visible {
+  outline: none;
+}

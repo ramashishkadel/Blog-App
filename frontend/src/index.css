@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-top: 6rem;
+  background: black;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.routerLink {
+  text-decoration: none;
+  color: grey;
+}
+
+.routerLink:hover {
+  cursor: pointer;
+  color: #d7dadc;
+}
+
+.routerLink_alt:hover {
+  color: black;
+}
+
+.routerLink_active {
+  color: #d7dadc;
+}
+
+.routerLink_active__alt {
+  color: black;
+}

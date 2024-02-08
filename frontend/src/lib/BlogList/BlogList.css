@@ -1,0 +1,47 @@
+.profileblog_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3a3b3d;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .profileblog_cont {
+    width: 70%;
+  }
+}
+
+.profileblog_cont:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.profileblog_cont h3 {
+  color: #d7dadc;
+}
+
+.profileblog_cont p {
+  color: grey;
+  width: 95%;
+}
+
+.profileblog_cont img {
+  height: 7rem;
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+  .profileblog_cont {
+    width: 90%;
+  }
+
+  .profileblog_cont p {
+    font-size: 1rem;
+  }
+}

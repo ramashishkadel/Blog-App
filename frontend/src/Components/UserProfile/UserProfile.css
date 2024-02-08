@@ -1,0 +1,117 @@
+.bloglist {
+  width: 100%;
+}
+
+.blog_hdngbtn {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.blog_hdngbtn > div {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.blog_hdngbtn button {
+  background: #d7dadc;
+  color: grey;
+  cursor: pointer;
+  padding: 0.4rem 1.6rem;
+  border: 1px solid #dad7dc;
+  border-radius: 12px;
+  margin-left: -5px;
+}
+
+.blog_hdngbtn button:hover {
+  color: black;
+  background: white;
+}
+
+.blog_hdngbtn h2 {
+  color: #d7dadc;
+}
+
+.myprofile_errormsg {
+  padding: 1rem 0;
+  background: rgba(255, 255, 255, 0.2);
+  width: 45%;
+  margin: 3rem auto;
+  text-align: center;
+  color: red;
+  border-radius: 8px;
+}
+
+.allblog_link {
+  width: 45%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1000px) {
+  .allblog_link {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .allblog_link {
+    width: 90%;
+  }
+}
+
+.allblog_link button {
+  padding: 0.5rem 1.5rem;
+  background-color: #dad7dc;
+  color: grey;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.allblog_link button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.usernav {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem !important;
+  margin-right: 2rem;
+}
+
+.usernav:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.usernav_active {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+@media (max-width: 1000px) {
+  .blog_hdngbtn > div {
+    width: 70%;
+  }
+
+  .usernav {
+    font-size: 1.2rem;
+  }
+  .myprofile_errormsg {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog_hdngbtn > div {
+    width: 90%;
+  }
+
+  .usernav {
+    font-size: 0.8rem;
+  }
+  .myprofile_errormsg {
+    width: 90%;
+  }
+}
